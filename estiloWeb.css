@@ -1,0 +1,301 @@
+@font-face {
+    font-family: feelingSoon; src: url(../fonts/fFeelingSoon.ttf);
+}
+
+@font-face {
+    font-family: Vogue; src:url(../fonts/Vogue.ttf)
+}
+
+body {
+   background-image: url('../img/fondo2.png');
+   background-repeat: repeat;
+   background-position: center;
+   margin: 0;
+}
+
+#contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50em;
+    background-color: white;
+    padding: 1em;
+    border-left: 0.3em solid var(--color_borde);
+    border-right: 0.3em solid var(--color_borde);
+    text-align: justify;
+    min-height: 100vh;
+}
+
+#imagenHome {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+    padding: 30px;
+}
+
+#imagenPrincipal{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+    padding: 30px;
+}
+
+img {
+    max-width: 100%; 
+    
+}
+
+section {
+    overflow: hidden; 
+    margin-bottom: 20px; 
+    padding: 7px;
+    text-align: justify;
+}
+
+h1 {
+    
+    border-radius: 1rem;
+    margin: 0;
+    font-family: Vogue;
+    background-image: url(../img/estrella.png);
+    
+    background-size: 30%;
+    text-align: center;
+    padding: 0.7em;
+    text-shadow: 0.1em 0.005em 0 rgba(116, 57, 107, 0.452); 
+}
+
+.imagenJimSuKook p {
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+.imagenJimSuKook img {
+    float: left; 
+    margin-right: 20px; 
+    margin-left: 20px;
+    width: 40%;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.537);
+}
+.imagenJimSuKook .listasCortas {
+    text-align: left;
+}
+
+.imagenRmVJh p {
+    margin-right: 20px; 
+    margin-left: 20px;
+}
+
+.imagenRmVJh img {
+    float: right; 
+    margin-right: 20px;
+    margin-left: 20px; 
+    width: 40%;
+    box-shadow: 4px 0 8px rgba(0, 0, 0, 0.537);
+}
+
+#debut {
+    float: right;
+    width: 40%;
+    max-width: 100%;
+    margin-left: 10px;
+    height: auto;
+    display: block;
+    box-shadow: 3px 0 8px rgba(0, 0, 0, 0.537);
+}
+
+#Discografia {
+    float: right;
+    width: 35%;
+    max-width: 100%;
+    margin-left: 10px;
+    height: auto;
+    display: block;
+    box-shadow: 3px 0 8px rgba(0, 0, 0, 0.537);
+}
+
+#AboutBts{
+    float: right;
+    width: 35%;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 20px;
+    height: auto;
+    display: block;
+    box-shadow: 3px 0 8px rgba(0, 0, 0, 0.537);
+}
+
+#section1, #section2, #section11, #section12, #sectionHome {
+    align-items: center; 
+    justify-content: space-between;
+    border: 0.3px  solid black;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding: 0.3rem;
+}
+
+#section4, #section5, #section6, #section7, #section8, #section9, #section10 {
+    border: 3px dotted rgb(74, 40, 134); 
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 1rem 0;
+    padding: 0.3rem;
+    
+    
+}
+
+h4 {
+    text-align: center;
+    border: 2px solid rgb(74, 40, 134);
+    background-color: rgba(116, 57, 107, 0.682);
+    border-radius: 20px 20px 0 0;
+    margin: 20px;
+    padding: 10px;
+}
+
+h3.comun, h2{
+    background-image: url(../img/estrella.png);
+    background-color:rgba(116, 57, 107, 0.682);
+    background-size: 20%;
+    color:white;
+    margin-top: 0;
+    border-radius: 0.5rem 0.5rem 0 0;
+    padding: 0.3em 1em;
+    font-family: feelingSoon;
+    font-size: large;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+h3#especial {
+    background-image: url(../img/estrella.png);
+    background-color:rgba(116, 57, 107, 0.682);
+    background-size: 20%;
+    color:white;
+    margin-top: 0;
+    border-radius: 0.5rem;
+    padding: 0.9em 1em;
+    font-family: feelingSoon;
+    font-size: large;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+#menu {
+    background-color:#882e8b;
+}
+
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    
+   }
+   
+
+   #menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+   }
+   
+   #menu ul li {
+    position:relative;
+    display: inline-block;
+    margin:0;
+    padding:0;
+    background-color:#882e8b;
+   }
+  
+   #menu ul li:hover {
+    background:#74396b;
+   }
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color:#882e8b;
+    padding:0;
+    border: solid 2px rgb(92, 65, 139);
+   }
+   
+   #menu ul ul ul {
+    display: none;
+    position: absolute;
+    top: 0; 
+    left: 100%; 
+    background: #eee;
+    padding: 0;
+    border: solid 1px rgb(92, 65, 139);
+   }
+
+   #menu ul ul li {
+    float:none;
+    width:150px
+   }
+   
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   #menu ul li:hover > ul {
+    display:block;
+   }
+
+   #section12 ul,
+   #section12 ul ul li {
+    line-height: 1.75; 
+    color: #74396b;
+   }
+   
+   #section12 li > ul  {
+    font-weight: bold;
+}
+
+div #section12{
+        color: #000000;
+        align-items: center; 
+        justify-content: space-between;
+        border: 0.3px  solid black;
+        border-radius: 1rem;
+        margin: 1rem 0;
+        padding: 0.3rem;
+}
+
+
+.listasCortas ul, .listasCortas ul li {
+    line-height: 2; 
+}
+
+.descargarArchivo {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none; 
+}
+
+.descargarArchivo button {
+    padding: 10px 15px; 
+    background-color: #74396b; 
+    align-items: center;
+    color: #fff;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.descargarArchivo button:hover {
+    background-color: rgb(91, 33, 141); 
+}
